@@ -9,13 +9,15 @@ namespace W.Dev.Models
 {
     public class Evento
     {
-        public int Id { get; set; }
-        public string Local { get; set; }
+        public int EventoId { get; set; }
+        public string Nome { get; set; }
         public string Instagram { get; set; }
-        public string Horarios { get; set; }
         public string Logo { get; set; }
         public string Banner { get; set; }
         public TimeSpan Dias { get; set; }
+        public DateTime DataInicial { get; set; }
+        public DateTime DataFinal { get; set; }
+
 
     }
 }

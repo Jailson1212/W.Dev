@@ -84,12 +84,12 @@ namespace W.Dev.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Sessão fabricante = context.Sessões.Find(id);
-            if (fabricante == null)
+            Sessão sessão = context.Sessões.Find(id);
+            if (sessão == null)
             {
                 return HttpNotFound();
             }
-            return View(fabricante);
+            return View(sessão);
         }
         // POST: Fabricantes/Delete/5
         [HttpPost]

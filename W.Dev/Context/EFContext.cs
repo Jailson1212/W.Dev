@@ -11,5 +11,6 @@ namespace W.Dev.Context
     {
         public EFContext() : base("Asp_Net_MVC_CS") { }
         public DbSet<Sessão> Sessões { get; set; }
+        public DbSet<Evento> Eventos { get; set; }
     }
 }

@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
+    <Content Include="css\geralOrganizador.css.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,6 +110,7 @@
     <Compile Include="Context\EFContext.cs" />
     <Compile Include="Controllers\EventosController.cs" />
     <Compile Include="Controllers\SessõesController.cs" />
+    <Compile Include="DAL\EventosDAL.cs" />
     <Compile Include="DAL\SessoesDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
